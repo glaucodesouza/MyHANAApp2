@@ -32,7 +32,10 @@
       "db": {
         "kind": "hana-cloud"
       },
-      "auth": "xsuaa"
+      "auth": "xsuaa",
+      "[production]": {
+        "auth": "xsuaa"
+      }
     }
   },
   "sapux": [
